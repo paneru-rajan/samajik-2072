@@ -11,7 +11,7 @@ public class Fibonacci {
     }
     public static void main(String[] args){
         Scanner sr = new Scanner(System.in);
-        int a = 1, b = 1;
+        int a = 0, b = 1;
         System.out.println("\tProgram to generate fibonnac series\n");
         System.out.print("Enter the no. of terms: ");
         int t = sr.nextInt();
