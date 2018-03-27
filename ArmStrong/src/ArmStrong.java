@@ -5,7 +5,7 @@ public class ArmStrong {
         while (i > 0)
         {
             a = i % 10;
-            b = b + (int) pow(a,3);
+            b += (int) pow(a,3);
             i /= 10;
         }
         return b;
