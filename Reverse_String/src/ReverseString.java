@@ -11,7 +11,7 @@ public class ReverseString
 
         System.out.println("Reversed string is:");
         System.out.println(sb.reverse().toString());
-        read.close();
+        //read.close();
 
     }
 }

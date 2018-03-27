@@ -10,13 +10,13 @@ public class Fibonacci {
         }
     }
     public static void main(String[] args){
-        Scanner sr = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a = 0, b = 1;
         System.out.println("\tProgram to generate fibonnac series\n");
         System.out.print("Enter the no. of terms: ");
-        int t = sr.nextInt();
+        int t = sc.nextInt();
         System.out.print("\nThe fibo seris upto " +t+ " terms: ");
-        sr.close();
+        //sc.close();
         f_fun(a,b,t);
 
     }
