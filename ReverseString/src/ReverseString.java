@@ -22,7 +22,6 @@ public class ReverseString {
         String s;
         System.out.println("Enter the string : ");
         s = scan.nextLine();
-        scan.close();
         s = reverse(s);
         System.out.println("The reversed string is " + s );
     }

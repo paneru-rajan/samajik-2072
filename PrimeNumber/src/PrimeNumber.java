@@ -7,7 +7,6 @@ public class PrimeNumber {
         int i,n,j;
         System.out.println("Prime numbers upto where? :");
         n = scan.nextInt();
-        scan.close();
         for(i=2;i<=n;i++) {
             int flag = 0;
             for (j = 2; j < i; j++) {

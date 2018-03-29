@@ -13,7 +13,6 @@ public class Factorial {
         System.out.println("Factorial of what?");
         Scanner read = new Scanner(System.in);
         n = read.nextInt();
-        read.close();
         System.out.println(fact(n));
     }
 }

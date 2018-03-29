@@ -14,7 +14,6 @@ public class Fibonacci {
         int n,temp;
         System.out.println("How many Fibonacci numbers?:");
         n = scan.nextInt();
-        scan.close();
         for(int i=1;i<=n;i++) {
             temp = Fibonacci(i);
             System.out.print(temp + ",");
