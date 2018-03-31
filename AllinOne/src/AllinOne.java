@@ -1,17 +1,17 @@
 import java.util.Scanner;
-
 class AllinOne {
     static void choose(){
         Scanner sr = new Scanner(System.in);
-        System.out.println("\t\tAll In One\n");
+        System.out.println("\t\tAll In One Program\n");
         System.out.print("Choose one of the program: \n" +
-                "1.ArmStrong\n" +
-                "2.Even Number\n" +
-                "3.Factorial\n" +
-                "4.Fibonacci\n" +
-                "5.FizzBuzz\n" +
-                "6.Prime Numbers\n" +
-                "7.Reverse String\n" +
+                "1. ArmStrong\n" +
+                "2. Even Number\n" +
+                "3. Factorial\n" +
+                "4. Fibonacci\n" +
+                "5. FizzBuzz\n" +
+                "6. Prime Numbers\n" +
+                "7. Reverse String\n" +
+                "8. Exit From Program\n" +
                 "\nEnter Your Choice: ");
         int n = sr.nextInt();
         switch(n){
@@ -36,6 +36,8 @@ class AllinOne {
             case 7:
                 ReverseString.main(null);
                 break;
+            case 8:
+                System.exit(8);
             default:
                 System.out.println("Invalid Input");
                 break;
@@ -43,6 +45,7 @@ class AllinOne {
         System.out.print("\n\nDo You Want To Try Again(y/n): ");
         String c = sr.next();
         if(c.charAt(0)=='y'||c.charAt(0)=='Y') {
+            System.out.println("\n\n");
             choose();
         }
         sr.close();
