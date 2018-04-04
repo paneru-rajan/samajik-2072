@@ -3,7 +3,7 @@ public class fact {
 
 
 
-    protected static int factor(int n)
+    public static int factor(int n)
     {
         if(n==1)
             return 1;
