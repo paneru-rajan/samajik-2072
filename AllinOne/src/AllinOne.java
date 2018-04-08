@@ -45,7 +45,7 @@ class AllinOne {
         System.out.print("\n\nDo You Want To Try Again(y/n): ");
         String c = sr.next();
         if(c.charAt(0)=='y'||c.charAt(0)=='Y') {
-            System.out.println("\n\n");
+            System.out.println("\n");
             choose();
         }
         sr.close();
