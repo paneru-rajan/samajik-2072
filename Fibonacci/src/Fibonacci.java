@@ -1,15 +1,23 @@
+import java.util.Scanner;
 public class Fibonacci
 {
-    public static long fibonacci(long n)
+    static long a=0,b=1;
+    public static long fibo(long a,long b,long c){
+            a=a+b;
+            System.out.println(+a);
+    if(c!=0)
     {
-        if(n<=1)
-            return n;
-        else
-            return fibonacci(n-1)+fibonacci(n-2);
+        return fibo(b,a,c-1);
+    }
+        return 0;
     }
 
     public static void main(String[] args)
     {
-        for(int i=0;i<=10;i++)
-            System.out.println( i +":" +fibonacci(i));
-    }}
+        Scanner reader=new Scanner(System.in);
+        System.out.println(" c: ");
+        long c=reader.nextLong();fibo(a,b,c);
+
+    }
+}
+
