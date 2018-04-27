@@ -10,7 +10,6 @@ public class TicTacToeWithComputer {
     private static boolean tie = false;
 
     public static void main(String[] args) {
-        boolean playersTurn = false;
         intro();
         for (int i = 0; i < 9; i++) {
             board[i] = String.valueOf(i + 1);
