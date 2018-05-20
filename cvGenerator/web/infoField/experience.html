@@ -1,0 +1,81 @@
+
+
+<div id="experience" class="tab-pane fade in ">
+    <h3>Working Experience</h3><hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <form method="post" action="writeExp">
+                    <div class="form-group">
+                        <label for ="organization">Organization Name :</label>
+                        <input class="form-control" type="text" name="organization" id="organization" required >
+                    </div>
+
+                    <div class="form-group">
+                        <label for ="organizationtype">Organization Type:</label>
+                        <select class="form-control" name="organization" id="organizationtype" >
+                            <option>Advertising Agencey</option>
+                            <option>Airlines/GSA </option>
+                            <option>Architecture/Interior Design Firm </option>
+                            <option>Banks </option>
+                            <option>Construction/Real Estate </option>
+                            <option>Designing/Printing </option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for ="joblocation">Job Location:</label>
+                        <select class="form-control" name="joblocation" id="joblocation" >
+                            <option>Kathmandu</option>
+                            <option>Bhaktapur </option>
+                            <option>Jhapa </option>
+                            <option>Morang </option>
+                            <option>Lalitpur </option>
+                            <option>Janakpur </option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for ="jobtitle">Job Title :</label>
+                        <input class="form-control" type="text" name="jobtitle" id="jobtitle" required >
+                    </div>
+                </div>
+            <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for ="joblevel">Job Level:</label>
+                        <select class="form-control" name="joblevel" id="joblevel" >
+                            <option>Top Level</option>
+                            <option>Senior Level </option>
+                            <option>Mid Level </option>
+                            <option>Entry Level </option>
+                            </select>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for ="startdate">Start Date :</label>
+                        <input class="form-control" type="date" name="startdate" id="startdate" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for ="enddate">End Date :</label>
+                        <input class="form-control" type="date" name="enddate" id="enddate" required>
+                    </div>
+                 <h4> Job Summary :</h4>
+        <textarea name="summary" cols="30" rows="5" required>
+
+        </textarea>
+            </div>
+
+
+
+
+        </div>
+        <button type="submit" class="btn btn-primary" name="submit">Save</button>
+                        </form>
+
+        </div>
+    </div>
