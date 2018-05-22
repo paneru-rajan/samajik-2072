@@ -9,15 +9,15 @@ public class allin
         do {
             System.out.println("Enter your choice");
             System.out.println("1.Armstrong number\n" +
-                    "2.Even number\n" +
-                    "3.Factorial\n" +
-                    "4.Fibonocci\n" +
-                    "5.Prime\n" +
-                    "6.String reverse");
+                                "2.Even number\n" +
+                                "3.Factorial\n" +
+                                "4.Fibonocci\n" +
+                                "5.Prime\n" +
+                                "6.String reverse\n");
             Scanner scan = new Scanner(System.in);
             opt = scan.nextInt();
             programs(opt);
-            System.out.println("Would you like to load main menu again?(y/n)");
+            System.out.println("\nWould you like to load main menu again?(y/n)");
             c = scan.next();
         }while (c.charAt(0) != 'n');
     }
